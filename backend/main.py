@@ -20,4 +20,4 @@ app.include_router(products.router)
 
 @app.get("/")
 def home():
-    return {"status": "Servidor Backend a funcionar com sucesso!"}
+    return {"status": "Running!"}
